@@ -6,12 +6,12 @@ import s from "./FriendMessage.module.css";
 const FriendMessage = (props: MessagePropsType) => {
   return (
     <div
-      id={props.message.message.text + props.message.id}
+      id={"hw1-friend-message-" + props.message.id}
       className={s.friendMessage}
     >
       <div className={s.friendImageAndText}>
         <img
-          id={props.message.user.avatar + props.message.id}
+          id={"hw1-friend-avatar-" + props.message.id}
           // создаёт студент
           src={props.message.user.avatar}
           alt={props.message.user.name}
@@ -19,7 +19,7 @@ const FriendMessage = (props: MessagePropsType) => {
         />
         <div className={s.friendText}>
           <div
-            id={props.message.user.name + props.message.id}
+            id={"hw1-friend-name-" + props.message.id}
             className={s.friendName}
           >
             {/*создаёт студент*/}
@@ -27,7 +27,7 @@ const FriendMessage = (props: MessagePropsType) => {
             {/**/}
           </div>
           <pre
-            id={props.message.message.text + props.message.id}
+            id={"hw1-friend-text-" + props.message.id}
             className={s.friendMessageText}
           >
             {/*создаёт студент*/}
@@ -36,10 +36,7 @@ const FriendMessage = (props: MessagePropsType) => {
           </pre>
         </div>
       </div>
-      <div
-        id={props.message.message.time + props.message.id}
-        className={s.friendTime}
-      >
+      <div id={"hw1-friend-time-" + props.message.id} className={s.friendTime}>
         {/*создаёт студент*/}
         {props.message.message.time}
         {/**/}
