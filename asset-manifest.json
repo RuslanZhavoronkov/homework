@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RuslanZhavoronkov/homework.git/static/css/main.fca7d937.css",
-    "main.js": "/RuslanZhavoronkov/homework.git/static/js/main.42e2b37f.js",
-    "static/js/787.66cb4309.chunk.js": "/RuslanZhavoronkov/homework.git/static/js/787.66cb4309.chunk.js",
-    "static/media/avatar.png": "/RuslanZhavoronkov/homework.git/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/RuslanZhavoronkov/homework.git/index.html",
-    "main.fca7d937.css.map": "/RuslanZhavoronkov/homework.git/static/css/main.fca7d937.css.map",
-    "main.42e2b37f.js.map": "/RuslanZhavoronkov/homework.git/static/js/main.42e2b37f.js.map",
-    "787.66cb4309.chunk.js.map": "/RuslanZhavoronkov/homework.git/static/js/787.66cb4309.chunk.js.map"
+    "main.css": "/homework/static/css/main.fca7d937.css",
+    "main.js": "/homework/static/js/main.83a185f3.js",
+    "static/js/787.66cb4309.chunk.js": "/homework/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/homework/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/homework/index.html",
+    "main.fca7d937.css.map": "/homework/static/css/main.fca7d937.css.map",
+    "main.83a185f3.js.map": "/homework/static/js/main.83a185f3.js.map",
+    "787.66cb4309.chunk.js.map": "/homework/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fca7d937.css",
-    "static/js/main.42e2b37f.js"
+    "static/js/main.83a185f3.js"
   ]
 }
